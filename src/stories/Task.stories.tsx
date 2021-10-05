@@ -17,7 +17,7 @@ const meta: Meta = {
 
 export default meta;
 
-const Template: Story<Props> = (args) => <Task {...args} />
+const Template: Story<Props> = (args: any) => <Task {...args} />
 
 export const Default = Template.bind({});
 
